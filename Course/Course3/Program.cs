@@ -15,10 +15,11 @@ namespace Course3
             //PrivateProductList privateProductList = new();
             //privateProductList.List();
 
-            PropertiesProductList propertiesProductList = new();
-            propertiesProductList.List();
+            //PropertiesProductList propertiesProductList = new();
+            //propertiesProductList.List();
 
-
+            FinalExerciceCall finalExerciceCall = new();
+            finalExerciceCall.Call();
 
         }
     }
