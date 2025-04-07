@@ -9,8 +9,24 @@ namespace Course4
             //ProductList productList = new ProductList();
             //productList.List();
 
-            FirstExerciceCall firstExerciceCall = new FirstExerciceCall();
-            firstExerciceCall.Call();
+            //FirstExerciceCall firstExerciceCall = new FirstExerciceCall();
+            //firstExerciceCall.Call();
+
+            //ParamsModificatorCall paramsModificatorCall = new();
+            //paramsModificatorCall.Call();
+
+            //RefAndOutParamsCall refAndOutParamsCall = new();
+            //refAndOutParamsCall.Call();
+
+            //ForEachCall forEachCall = new();
+            //forEachCall.Call();
+
+            //ListCall listCall = new ();
+            //listCall.Call();
+
+            //SecondExerciceCall secondExerciceCall = new();
+            //secondExerciceCall.Call();
+
 
         }
     }
