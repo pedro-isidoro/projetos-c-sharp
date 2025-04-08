@@ -27,8 +27,11 @@ namespace Course4
             //SecondExerciceCall secondExerciceCall = new();
             //secondExerciceCall.Call();
 
-            ThirdExerciceCall thirdExerciceCall = new();
-            thirdExerciceCall.Call();
+            //ThirdExerciceCall thirdExerciceCall = new();
+            //thirdExerciceCall.Call();
+
+            FourthExerciceCall fourthExerciceCall = new();
+            fourthExerciceCall.Call();
 
         }
     }
