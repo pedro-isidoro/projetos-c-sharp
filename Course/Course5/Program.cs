@@ -9,8 +9,20 @@ namespace Course5
             //SwitchCase switchCase = new();
             //switchCase.Case();
 
-            TernaryOperator ternaryOperator = new();
-            ternaryOperator.Operator();
+            //TernaryOperator ternaryOperator = new();
+            //ternaryOperator.Operator();
+
+            //StringsFunctions stringsFunctions = new();
+            //stringsFunctions.String();
+
+            //DateTimeFunction dateTimeFunction = new();
+            //dateTimeFunction.Time();
+
+            //TimeSpanFunction timeSpanFunction = new();
+            //timeSpanFunction.Time();
+
+            DateKindFunction dateKindFunction = new();
+            dateKindFunction.Kind();
 
         }
     }
