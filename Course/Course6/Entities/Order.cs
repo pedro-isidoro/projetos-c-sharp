@@ -1,6 +1,6 @@
-﻿using Course6.Entites.Enums;
+﻿using Course6.Entities.Enums;
 
-namespace Course6.Entites
+namespace Course6.Entities
 {
     internal class Order
     {

@@ -1,4 +1,4 @@
-﻿namespace Course6.Entites.Enums
+﻿namespace Course6.Entities.Enums
 {
     //orderStatus é derivado de um tipo base int
     internal enum OrderStatus : int

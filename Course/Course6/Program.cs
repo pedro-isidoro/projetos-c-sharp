@@ -4,7 +4,8 @@ using Course6.Entities.Enums;
 using Course6.WorkerEntities;
 using Course6.WorkerEntities.Enums;
 using Course6.PostEntities;
-using Course6.PostEntities.Enums;
+using Course6.OSEntities;
+using Course6.OSEntities.Enums;
 
 namespace Course6
 {
@@ -18,8 +19,11 @@ namespace Course6
             //WorkerCall workerCall = new WorkerCall();
             //workerCall.Call();
 
-            PostCall postCall = new();
-            postCall.Call();
+            //PostCall postCall = new();
+            //postCall.Call();
+
+            ExerciceServiceOrderCall exerciceServiceOrderCall = new();
+            exerciceServiceOrderCall.Call();
 
         }
     }
