@@ -13,10 +13,8 @@
             //ReservationCall reservationCall = new ReservationCall();
             //reservationCall.Call();
 
-            //BankAccountCall bankAccountCall = new BankAccountCall();
-            //bankAccountCall.Call();
-
-
+            BankAccountCall bankAccountCall = new BankAccountCall();
+            bankAccountCall.Call();
 
         }
     }
