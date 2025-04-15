@@ -11,14 +11,31 @@ namespace UrbanTransports
         static void Main(string[] args)
         {
             Console.WriteLine("Register Vehicle");
-            Console.Write("How vehicle you will register? (Car, Moto, Bus, Metro, EBike)");
-            VehicleType type = Enum.Parse<VehicleType>(Console.ReadLine());
+            Console.Write("Which vehicle you will register? (Car, Moto, Bus, Metro, EBike): ");
+            //VehicleType type = Enum.Parse<VehicleType>(Console.ReadLine());
+            string input = Console.ReadLine();
+            if (!Enum.TryParse<VehicleType>(input, true, out VehicleType type))
+            {
+                Console.WriteLine("Invalid vehicle type. Try again.");
+                return;
+            }
             Console.Write("Model: ");
             string vehicleModel = Console.ReadLine();
 
             //AbstractVehicle vehicle = null;
             VehicleServices services = new VehicleServices();
-            AbstractVehicle vehicle = VehicleServices.CreateVehicleService(type, vehicleModel);
+            try
+            {
+                AbstractVehicle vehicle = VehicleServices.CreateVehicleService(type, vehicleModel);
+
+                Console.WriteLine();
+                Console.WriteLine("Registered Vehicles:");
+                Console.WriteLine(vehicle);
+            }
+            catch (ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
             //switch (type)
             //{
@@ -42,9 +59,9 @@ namespace UrbanTransports
             //        break;
             //}
 
-            Console.WriteLine();
-            Console.WriteLine("Registered Vehicles:");
-            Console.WriteLine(vehicle);
+            //Console.WriteLine();
+            //Console.WriteLine("Registered Vehicles:");
+            //Console.WriteLine(vehicle);
         }
     }
 }

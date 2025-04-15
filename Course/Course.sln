@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanTransports", "UrbanTra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanTransports2", "UrbanTransports2\UrbanTransports2.csproj", "{0341A20A-F704-4AE4-B22B-26F810A8689C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course11", "Course11\Course11.csproj", "{A4EEBCD4-491F-4594-BABB-A79AF39CCCF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0341A20A-F704-4AE4-B22B-26F810A8689C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0341A20A-F704-4AE4-B22B-26F810A8689C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0341A20A-F704-4AE4-B22B-26F810A8689C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EEBCD4-491F-4594-BABB-A79AF39CCCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EEBCD4-491F-4594-BABB-A79AF39CCCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EEBCD4-491F-4594-BABB-A79AF39CCCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EEBCD4-491F-4594-BABB-A79AF39CCCF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

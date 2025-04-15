@@ -14,7 +14,7 @@ namespace UrbanTransports2.Entities
         }
         public override string ToString()
         {
-            return $"Model: {Model}, Cost: R$ {OperationalCost().ToString("F2", CultureInfo.InvariantCulture)}";
+            return $"Type: {this.GetType().Name}, Model: {Model}, Cost: R$ {OperationalCost().ToString("F2", CultureInfo.InvariantCulture)}";
         }
     }
 }
