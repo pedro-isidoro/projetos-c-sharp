@@ -25,7 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course10", "Course10\Course
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentExercice", "InstrumentExercice\InstrumentExercice.csproj", "{B4560BBB-C826-4741-84B7-ED462A466B2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employeers", "Employeers\Employeers.csproj", "{FE08C8A8-34B3-4AA1-83B9-97EBACB5B6E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeersExercice", "Employeers\EmployeersExercice.csproj", "{FE08C8A8-34B3-4AA1-83B9-97EBACB5B6E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentExercice", "PaymentExercice\PaymentExercice.csproj", "{3000D9BA-268D-4B3F-90AE-A7B5FA747A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanTransports", "UrbanTransports\UrbanTransports.csproj", "{6AB8D821-0379-4703-A061-1E247A50A544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanTransports2", "UrbanTransports2\UrbanTransports2.csproj", "{0341A20A-F704-4AE4-B22B-26F810A8689C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{FE08C8A8-34B3-4AA1-83B9-97EBACB5B6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE08C8A8-34B3-4AA1-83B9-97EBACB5B6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE08C8A8-34B3-4AA1-83B9-97EBACB5B6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3000D9BA-268D-4B3F-90AE-A7B5FA747A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3000D9BA-268D-4B3F-90AE-A7B5FA747A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3000D9BA-268D-4B3F-90AE-A7B5FA747A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3000D9BA-268D-4B3F-90AE-A7B5FA747A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB8D821-0379-4703-A061-1E247A50A544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB8D821-0379-4703-A061-1E247A50A544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB8D821-0379-4703-A061-1E247A50A544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB8D821-0379-4703-A061-1E247A50A544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0341A20A-F704-4AE4-B22B-26F810A8689C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0341A20A-F704-4AE4-B22B-26F810A8689C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0341A20A-F704-4AE4-B22B-26F810A8689C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0341A20A-F704-4AE4-B22B-26F810A8689C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
