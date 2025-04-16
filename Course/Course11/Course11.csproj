@@ -11,10 +11,12 @@
     <None Remove="ClientEntities\" />
     <None Remove="ConjuntosExercciceEntities\" />
     <None Remove="CourseExerciceEntities\" />
+    <None Remove="HashEntities\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClientEntities\" />
     <Folder Include="ConjuntosExercciceEntities\" />
     <Folder Include="CourseExerciceEntities\" />
+    <Folder Include="HashEntities\" />
   </ItemGroup>
 </Project>
