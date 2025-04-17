@@ -7,4 +7,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ProductEntities\" />
+    <None Remove="DelegatesServices\" />
+    <None Remove="MulticastDelegatesServices\" />
+    <None Remove="ActionEntities\" />
+    <None Remove="FuncEntities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProductEntities\" />
+    <Folder Include="DelegatesServices\" />
+    <Folder Include="MulticastDelegatesServices\" />
+    <Folder Include="ActionEntities\" />
+    <Folder Include="FuncEntities\" />
+  </ItemGroup>
 </Project>
