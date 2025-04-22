@@ -20,19 +20,24 @@ namespace Course13
 		public void Call()
 		{
 			//Specify the data source
+			//Criar uma fonte de dados (coleções, array, recurso de E/S, etc.)
 			int[] numbers = new int[] { 2, 3, 4, 5 };
 
 			//Define the query expression
-			var result = numbers
-				.Where(x => x % 2 == 0)
-				.Select(x => x * 10);
+			//Definir a query
+			var result = numbers //Usamos var ou IEnumerable - pois ele é tipo genéico, Linq as prefere por conta disso
+				.Where(x => x % 2 == 0) //filtra os pares
+				.Select(x => x * 10); //E os multiplica por 10
 
 			//Execute the query
+			//Executar a query (foreach ou alguma operação terminal)
 			foreach(int x in result)
 			{
 				Console.WriteLine(x);
 			}
 		}
+
+
 	}
 }
 

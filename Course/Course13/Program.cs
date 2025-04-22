@@ -22,9 +22,20 @@ class Program
         //FuncCall funcCall = new FuncCall();
         //funcCall.Call();
 
-        LinqCall linqCall = new LinqCall();
-        linqCall.Call();
+        //LinqCall linqCall = new LinqCall();
+        //linqCall.Call();
 
+        //LinqWithLambda linqWithLambda = new LinqWithLambda();
+        //linqWithLambda.Call();
+
+        //AlgebraRelacional algebraRelacional = new AlgebraRelacional();
+        //algebraRelacional.Call();
+
+        //Exercice exercice = new Exercice();
+        //exercice.Call();
+
+        FinalExercice finalExercice = new FinalExercice();
+        finalExercice.Call();
 
     }
 }
